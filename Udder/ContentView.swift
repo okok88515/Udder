@@ -20,6 +20,7 @@ struct ContentView: View {
             }
             Image(systemName: "phone.fill")
             Image(systemName: "hare")
+            Image(systemName: "sun.max")
         }
     }
 }
