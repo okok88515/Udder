@@ -19,6 +19,7 @@ struct ContentView: View {
                 .font(.title)
             }
             Image(systemName: "phone.fill")
+            Image(systemName: "hare")
         }
     }
 }
