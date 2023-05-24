@@ -10,12 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            
-            Button("Udder") {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+            VStack {
+                
+                Button("Udder") {
+                    /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                }
+                .foregroundColor(.brown)
+                .font(.title)
             }
-            .foregroundColor(.brown)
-            .font(.title)
+            Image(systemName: "phone.fill")
         }
     }
 }
